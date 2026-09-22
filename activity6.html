@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Acitivity6</title>
+    <script>
+      function myFunction() {
+        let txt;
+        let fullName = prompt("Full name: ", "Enter full name here");
+        if (fullName == null || fullName == "") {
+          txt = "The field is required!";
+        } else {
+          txt = "Hello, " + fullName + "! How are you today?";
+        }
+        document.getElementById("demo").innerHTML = txt;
+      }
+
+      function mySecondFunction() {
+        let txt2 = "You are mine!";
+        document.getElementById("mine").innerHTML = txt2;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2>JavaScript Prompt</h2>
+    <button onclick="myFunction()">Click here part1 !</button>
+    <button onclick="mySecondFunction()">Click here part2 !</button>
+    <p id="demo"></p>
+    <p id="mine"></p>
+    <!--Display Output Here-->
+  </body>
+</html>
