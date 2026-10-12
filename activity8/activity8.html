@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Activity8</title>  
+            <script src="scriptLoop.js"></script>
+            <link rel="stylesheet" href="style.css">
+        </head>        
+        <body>
+            <div class="row">
+                <div class="Left">
+                <h2>For Loop</h2>
+                <form id="loopForm">
+                    <table>
+                        <tr>
+                            <td><label for="num">Enter a number:</label>
+                            <td><input type="text" id="num" name="num"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt">Enter text:</label>
+                            <td><input type="text" id="txt" name="txt"></td>
+                        </tr>
+                        <tr>
+                         <td>
+                            <button type="button" onclick="showForLoop()">Show</button>
+                            <button type="reset" onclick="clearFields()">Clear</button>
+                        </td>
+                        </tr>
+                    </table>
+                </form>
+                <p id="output1"></p>
+                </div>
+
+                <div class="Center">
+                <h2>While Loop</h2>
+                <form id="loopForm">
+                    <table>
+                        <tr>
+                            <td><label for="num2">Enter a number:</label>
+                            <td><input type="text" id="num2" name="num2"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt2">Enter text:</label>
+                            <td><input type="text" id="txt2" name="txt2"></td>
+                        </tr>
+                        <tr>
+                         <td>
+                            <button type="button" onclick="showWhileLoop()">Show</button>
+                            <button type="reset" onclick="clearFields2()">Clear</button>
+                        </td>
+                        </tr>
+                    </table>
+                </form>
+                <p id="output2"></p>
+            </div>
+
+            <div class="Right">
+                <h2>Do-While Loop</h2>
+                <form id="loopForm">
+                    <table>
+                        <tr>
+                            <td><label for="num3">Enter a number:</label></td>
+                            <td><input type="text" id="num3" name="num3"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="txt3">Enter text:</label>
+                            <td><input type="text" id="txt3" name="txt3"></td>
+                        </tr>
+                        <tr>
+                         <td>
+                            <button type="button" onclick="showDoWhileLoop()">Show</button>
+                            <button type="reset" onclick="clearFields3()">Clear</button>
+                        </td>
+                        </tr>
+                    </table>
+                </form>
+                <p id="output3"></p>
+            </div>
+        </body>
+    </html>
